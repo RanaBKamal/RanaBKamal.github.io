@@ -1,0 +1,50 @@
+@media only screen and (max-width: 768px){
+
+	.header-menu{
+		float: left;
+		min-width: 80%;
+	}
+	.slider-details{
+		display: none;
+	}
+	.adblocks-leftwrp{
+		float: left;
+		min-width: 100%;
+	}
+	.adblocks-rightwrp{
+		padding-top: 50px;
+		clear: both;
+		float: left;
+		min-width: 100%;
+	}
+	.counter-leftwrp{
+		float: left;
+		min-width: 100%;
+	}
+	.counter-rightwrp{
+		clear: both;
+		float: left;
+		min-width: 100%;
+	}
+	.clean-buttonfirst{
+		float: left;
+		clear: both;
+		min-width: 100%;
+		margin-bottom: 10px;
+	}
+	.clean-buttonsecond{
+		float: left;
+		clear: both;
+		min-width: 100%;
+	}
+	.tail-leftwrp{
+		clear: both;
+		min-width: 100%;
+		float: left;
+	}
+	.tail-rightwrp{
+		clear: both;
+		min-width: 100%;
+		float: right;
+	}
+}
