@@ -112,8 +112,8 @@
   .grid_card {
     display: -ms-grid;
     display: grid;
-    width: /*90%*/100%;
-    max-width: /*85%*/ 1024px;
+    width: 90%/*100%*/;
+    max-width: 85% /*1024px*/;
     float: none;
     margin-left: auto;
     margin-right: auto;

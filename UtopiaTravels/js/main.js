@@ -56,7 +56,7 @@ $(window).scroll(function() {
 
 /* Video */
 var videoFile = document.getElementById('video-file'),
-    videoButton = document.getElementById('video-button'),
+    videoButton = document.getElementById('header'),
     videoIcon = document.getElementById('video-icon')
 
 function playPause(){
