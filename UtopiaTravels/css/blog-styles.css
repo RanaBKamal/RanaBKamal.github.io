@@ -94,7 +94,7 @@
     justify-items: center;
     align-content: center;
     justify-content: center;
-    background:linear-gradient( #14505cc2, #14505c7c), url("../images/hero.jpg");
+    background:linear-gradient( #14505cc2, #14505c7c), url("../img/hero.jpg");
     width: 100%;
     height: auto;
     margin: 2% 0;
@@ -342,7 +342,7 @@
 
   /*Sidebar Ads */
   .sidebar-ads {
-      background-image: url("../images/ads-space.png");
+      background-image: url("../img/ads-space.png");
       width: 130%;
       height: 30%;
       background-repeat: no-repeat;
