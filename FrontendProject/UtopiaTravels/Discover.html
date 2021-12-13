@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Discover: Utopia Travels</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img\home\iconfav.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" href="css/discover-styles.css">
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+          margin-top: 10px;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+        </style>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="Index.html" class="nav__logo">
+                <img src="img\Agency-Logo.png" alt="Agency Logo">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="Index.html" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="AboutUs.html" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="Services.html" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="Discover.html" class="nav__link active-link">Discover</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="Gallery.html" class="nav__link">Gallery</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="Blogs.html" class="nav__link">Blogs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="ContactUs.html" class="nav__link">Contact Us</a>
+                    </li>
+                </ul>
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main id="discover-main">
+        <section id="discover-head">
+            <div id="discover-head-content">
+                <h1 id="discover-head-title">The Trip Of Your Dream</h1>
+                <p id="discover-head-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas perspiciatis
+                    nisi tenetur totam iste voluptatibus expedita</p>
+                <button class="button">Learn More</button>
+            </div>
+            <div id="discover-form-container">
+                <div class="form-element">
+                    <label for="fname">From:</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+
+                <div class="form-element">
+                    <label for="fname">To:</label>
+                    <input type="text" id="fname" name="fname">
+                </div>
+
+                <div class="form-element">
+                    <label for="fname">Date:</label>
+                    <input type="date" id="fname" name="fname">
+                </div>              
+                <button class="button button-form">Find Your Flight</button>
+            </div>
+        </section>
+
+        <section id="discover-explore">
+          <h2>Explore</h2>
+          <div id="explore-container">
+                <div class="explore-content">
+                    <img src="./img/adventure.jpg" alt="">
+                    <h3>Adventure</h3>
+                </div>
+                <div class="explore-content">
+                    <img src="./img/art.jpg" alt="">
+                    <h3>Art</h3>
+                </div>
+                <div class="explore-content">
+                    <img src="./img/shopping.jpg" alt="">
+                    <h3>Shopping</h3>
+                </div>
+                <div class="explore-content">
+                    <img src="./img/food.jpg" alt="">
+                    <h3>Food</h3>
+                </div>
+          </div>
+        </section>
+
+        <section id="discover-table">
+            <h2>Destinations</h2>
+            <table>
+                <tr>
+                  <th>Country</th>
+                  <th>Places</th>
+                  <th>Adventures</th>
+                </tr>
+                <tr>
+                  <td>Switzerland</td>
+                  <td>Zurich</td>
+                  <td>Zoo</td>
+                </tr>
+                <tr>
+                  <td>Canada</td>
+                  <td>Vancouver</td>
+                  <td>Rock Climbing</td>
+                </tr>
+                <tr>
+                  <td>Nepal</td>
+                  <td>Pokhara</td>
+                  <td>Paragliding</td>
+                </tr>
+                <tr>
+                  <td>France</td>
+                  <td>Paris</td>
+                  <td>Shopping</td>
+                </tr>
+                <tr>
+                  <td>Thailand</td>
+                  <td>Pattaya City</td>
+                  <td>Water Activities</td>
+                </tr>
+                <tr>
+                  <td>USA</td>
+                  <td>Las Vegas</td>
+                  <td>Casino</td>
+                </tr>
+              </table>
+        </section>
+    </main>
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Utopia Travels</h3>
+                    <p class="footer__description">We provide you<br> the destination,
+                        and we offer you <br>best possible experience.
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Company</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="AboutUs.html" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="Services.html" class="footer__link">Services</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="Blogs.html" class="footer__link">Blogs</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Contact</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">FAQ/Help</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Plans and Pricing</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Teams</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">More</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Airline Fees</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Bus Fares</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Rent Car</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2021 Utopia Travels. All rights reserved.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
